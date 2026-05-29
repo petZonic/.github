@@ -1,0 +1,11 @@
+# Default CODEOWNERS for all @petzonic repositories
+# This file is inherited by repos that don't define their own CODEOWNERS.
+
+# Default: core team reviews everything
+*       @petzonic/owners
+
+# Documentation
+docs/**                 @petzonic/docs
+
+# CI/CD workflows
+.github/workflows/**    @petzonic/devops
